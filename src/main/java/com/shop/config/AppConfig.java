@@ -16,7 +16,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 
 import jakarta.servlet.http.HttpServletRequest;
-
+import com.shop.config.JwtTokenValidator;
 @Configuration
 public class AppConfig {
 	
@@ -42,7 +42,7 @@ public class AppConfig {
 								
 								"http://localhost:3000", 
 								"http://localhost:4000",
-								"https://ecommerce-shop-sphere-xvem.vercel.app"
+								"https://ecommerce-shop-sphere-xvem.vercel.app/"
 								
 								
 								
