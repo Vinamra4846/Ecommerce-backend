@@ -42,13 +42,13 @@ public class AppConfig {
 								
 								"http://localhost:3000", 
 								"http://localhost:4000",
-							"https://ecommerce-shop-sphere-2y8s4g8i6-vinamra4847-3897s-projects.vercel.app"
+							"https://ecommerce-shop-sphere-5xmsqnhkv-vinamra4847-3897s-projects.vercel.app"
 								
 								
 								
 							)
 						);
-						//cfg.setAllowedMethods(Arrays.asList("GET", "POST","DELETE","PUT"));
+						cfg.setAllowedMethods(Arrays.asList("GET", "POST","DELETE","PUT"));
 						cfg.setAllowedMethods(Collections.singletonList("*"));
 						cfg.setAllowCredentials(true);
 						cfg.setAllowedHeaders(Collections.singletonList("*"));
