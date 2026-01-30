@@ -42,7 +42,7 @@ public class AppConfig {
 								
 								"http://localhost:3000", 
 								"http://localhost:4000",
-								"https://ecommerce-shop-sphere-xvem.vercel.app"
+							"https://ecommerce-shop-sphere-2y8s4g8i6-vinamra4847-3897s-projects.vercel.app"
 								
 								
 								
