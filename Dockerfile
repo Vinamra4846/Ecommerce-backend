@@ -14,4 +14,4 @@ FROM openjdk:17.0.1-jdk-slim
 WORKDIR /app
 COPY --from=build /app/target/ecommerce-0.0.1-SNAPSHOT.jar ecommerce.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","ecommerce.jar"]
+ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar ecommerce.jar"]
