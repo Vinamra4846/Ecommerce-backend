@@ -40,8 +40,8 @@ public class AppConfig {
 
         CorsConfiguration config = new CorsConfiguration();
 
-        // Allow all origins via pattern to support credentials
-        config.setAllowedOriginPatterns(List.of("*"));
+        // Explicitly allow specific origins
+        config.setAllowedOrigins(List.of("https://ecommerce-shop-sphere-ten.vercel.app", "http://localhost:3000"));
 
         config.setAllowedMethods(List.of(
                 "GET", "POST", "PUT", "DELETE", "OPTIONS"));
