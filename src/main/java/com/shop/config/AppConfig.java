@@ -122,8 +122,7 @@ public class AppConfig {
         config.setAllowedOriginPatterns(List.of(
             "http://localhost:3000",
             "http://localhost:4000",
-            "https://ecommerce-shop-sphere-bhllzjarj-vinamra4847-3897s-projects.vercel.app" 
-								
+            "https://ecommerce-shop-sphere-ten.vercel.app"
         ));
 
         config.setAllowedMethods(List.of(
